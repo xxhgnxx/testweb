@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es6"
+        
+        "target": "es5",
+        "lib":["ES2015.Promise","DOM","ES5","ScriptHost"]
     }
 }

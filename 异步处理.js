@@ -40,6 +40,7 @@ function getpingfang2(x) {
         }
     });
 }
+var a = function () { };
 Promise.all([function () { return getpingfang1(1); }, function () { return getpingfang2(2); }]).then(function (value) {
     return add(value[0], value[1]);
 }).then(function (x) {
